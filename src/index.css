@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+body {
+  @apply text-gray-900 antialiased;
+}
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
